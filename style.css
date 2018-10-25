@@ -1,0 +1,32 @@
+body {
+    background-color: green;
+    position: relative;
+}
+.card_one {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+}
+.card_two {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.card_three {
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+}
+.card_four {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+}
+.card_five {
+    position: absolute;
+    left: 8rem;
+    top: 8rem;
+}
+.card:hover {
+    z-index: 3;
+}
